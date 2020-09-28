@@ -4,10 +4,25 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Kalkulator</title>
+	<script src="kalkulator.js"></script>
+</head>
 <body>
 
 	<h2>Kalkulator Sederhana</h2>
 
-	
+	<form name="form">
+		Bil 1
+		<input type="text" name="bil1" size=3><br><br>
+		Bil 2
+		<input type="text" name="bil2" size=3><br><br>
+		Hasil
+		<input type="text" value="" name="total" size="9"><br><br>
+	<!-- membuat event saat tombol di klik -->
+		<input type="button" name="submit" onclick="tambah()" value="+">
+		<input type="button" name="submit" onclick="kurang()" value="-">
+		<input type="button" name="submit" onclick="kali()" value="x">
+		<input type="button" name="submit" onclick="bagi()" value="/">
+		<input type="button" name="submit" onclick="cancel()" value="Reset">
+	</form>
 </body>
 </html>
