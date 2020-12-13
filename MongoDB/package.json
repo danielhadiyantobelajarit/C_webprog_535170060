@@ -1,0 +1,39 @@
+{
+  "name": "bioskop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.7",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Audric-Clarence-Jovan/Project-Bioskop.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Audric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Audric-Clarence-Jovan/Project-Bioskop/issues"
+  },
+  "homepage": "https://github.com/Audric-Clarence-Jovan/Project-Bioskop#readme"
+}
